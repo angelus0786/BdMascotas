@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BdMascotas</string>
+    <string name="ed_nombre">Nombre Mascota</string>
+    <string name="ed_edad">Edad</string>
+    <string name="tvespecie">Especie</string>
+    <string name="tvgenero">Genero</string>
+    <string name="btregistro">Registrar</string>
+    <string name="btcita">Cita</string>
+    <string name="tvtitulo">Registro de Mascotas</string>
+    <string name="ed_propietario">Propietario</string>
+    <string name="et_idmascota">Clave Mascota</string>
+    <string name="bt_buscar">Buscar</string>
+    <string name="h_fecha">Seleccionar Fecha</string>
+    <string name="bt_cita">Hacer Cita</string>
+    <string name="bt_consulta">Consulta Citas</string>
+    <string name="h_hora">Hora</string>
+</resources>

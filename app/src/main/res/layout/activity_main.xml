@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/linearPrincipal"
+    tools:context=".Vista.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:text="@string/tvtitulo"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etnombre"
+        android:hint="@string/ed_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_especie"
+            android:text="@string/tvespecie"
+            android:textSize="18sp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/sp_especie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/etedad"
+        android:hint="@string/ed_edad"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_genero"
+            android:text="@string/tvgenero"
+            android:textSize="18sp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/sp_genero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/etpropietario"
+        android:hint="@string/ed_propietario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_registrar"
+            android:text="@string/btregistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bt_cita"
+            android:text="@string/btcita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

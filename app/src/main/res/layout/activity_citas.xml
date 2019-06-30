@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vista.CitasActivity">
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etidmascota"
+            android:hint="@string/et_idmascota"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btbusca"
+            android:text="@string/bt_buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ednombreMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/ed_especie"
+        android:hint="@string/tvespecie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/ed_genero"
+        android:hint="@string/tvgenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/ed_propietario"
+        android:hint="@string/ed_propietario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_fecha"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/h_fecha" />
+
+        <ImageButton
+            android:id="@+id/im_fecha"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_today"
+            tools:src="@android:drawable/ic_menu_today" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ed_hora"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/h_hora" />
+
+        <ImageButton
+            android:id="@+id/im_hora"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_recent_history"
+            tools:src="@android:drawable/ic_menu_recent_history" />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+       android:id="@+id/btagendar"
+       android:text="@string/bt_cita"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/btconsulta"
+           android:text="@string/bt_consulta"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+</LinearLayout>
